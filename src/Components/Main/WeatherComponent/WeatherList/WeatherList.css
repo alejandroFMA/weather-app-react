@@ -1,0 +1,14 @@
+.wList{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.dayCard{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}

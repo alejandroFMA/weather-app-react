@@ -1,0 +1,20 @@
+.wForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:0.5rem;
+
+
+}
+
+.formName{
+
+    flex: 0.5 0 2rem;
+
+}
+
+.formButton{
+    flex: 0.5 0 1rem;
+    background-color: yellowgreen;
+
+}
