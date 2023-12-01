@@ -4,7 +4,7 @@ import "./Footer.css"
 const Footer = () => {
   return <footer>
     <li>Reserved rights</li>
-    <li>Alex Marquez</li>   
+    <li>Created by Alex Marquez</li>   
     </footer>;
 };
 
