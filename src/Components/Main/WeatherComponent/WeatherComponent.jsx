@@ -56,7 +56,7 @@ function WeatherComponent() {
   return (
     <div>
       <SearchForm onSearch={handleSearch} />
-      {loading && <p>Loading...</p>}
+      {loading && <p>Loading weather...</p>}
       {city && <h4>Forecast from {city} for the next 5 days</h4>}
       <WeatherList dataWeather={dataWeather} />
     </div>
