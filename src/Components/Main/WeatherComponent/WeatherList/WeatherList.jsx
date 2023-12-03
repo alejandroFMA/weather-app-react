@@ -23,7 +23,7 @@ import './WeatherList.css'
       <section className="wList">
         {Object.keys(processedData).map((date) => (
           <div className="dayCard"key={date}>
-            <h4>{date}</h4>
+            <h4 className="dayTitle">{date}</h4>
             {processedData[date].map((weatherItem) => (
               <WeatherCard 
                 key={uuidv4()}
